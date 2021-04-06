@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#02C909"
+    android:orientation="vertical"
+    tools:context=".AddDetailes">
+
+
+    <TextView
+        android:padding="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65sp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/otp_auth"
+        android:textColor="@android:color/black"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:padding="20sp"
+        android:id="@+id/name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_username"
+        android:drawableLeft="@drawable/ic_username"
+        android:hint="UserName"
+        android:inputType="text"
+        android:textSize="20sp"/>
+
+
+    <EditText
+        android:padding="20sp"
+        android:id="@+id/counrty_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_country"
+        android:drawableLeft="@drawable/ic_country"
+        android:hint="Contry Name"
+        android:inputType="text"
+        android:textSize="20sp"/>
+
+
+    <EditText
+        android:padding="20sp"
+        android:id="@+id/email_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:hint="Email Address"
+        android:inputType="text"
+        android:textSize="20sp"/>
+
+
+
+    <Button
+        android:padding="20sp"
+        android:id="@+id/save_button"
+        android:drawableStart="@drawable/firebase"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="Save"
+        android:background="@drawable/roundbg"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/firebase" />
+
+</LinearLayout>
